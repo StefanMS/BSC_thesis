@@ -1,0 +1,3 @@
+opencv_createsamples -img Finger_One.jpg -bg bg.txt -info pos1/pos1.lst -pngoutput pos1 -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 2000
+
+opencv_createsamples -info pos1/pos1.lst -num 2000 -w 100 -h 100 -vec pos1.vec
